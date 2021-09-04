@@ -1,0 +1,14 @@
+name: NullVehicles
+version: '${project.version}'
+main: slavatar.nullvehicles.NullVehicles
+prefix: NULL
+authors: [ Slavatar ]
+description: Adding vehicles for players
+website: https://github.com/slavatargit
+commands:
+  vehicles:
+    description: Get all vehicles
+    usage: 'Usage: /<command>'
+  vehicle:
+    description: Spawn a vehicle
+    usage: 'Usage: /<command> <vehicle>'
