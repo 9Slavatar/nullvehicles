@@ -1,16 +1,16 @@
 # nullvehicles
 Plugin for minecraft spigot 1.12.2 - spawnable entitys by command for donators
 
-# How working: 
+## How working: 
 Player spawn entity by command and auto-riding on this entity. If he dismount - entity dispawn.
 
 
-# Commands:
+## Commands:
 /vehicles - return message in chat with all vehicles
 
 /vehicle `<name>` - spawn vehicle
 
-# Config:
+## Config:
 
 `NoPermission` - Message when user doesnt have permission
 
@@ -26,7 +26,7 @@ Player spawn entity by command and auto-riding on this entity. If he dismount - 
 
 `Vehicles` - A list with entity class name
 
-# Permissions:
+## Permissions:
 `nullvehicles.vehicles` - for command /vehicles
 
 `nullvehicles.<vehicle_class_name>` - for summon /vehicle
